@@ -1,4 +1,5 @@
 #! python3
+#Robert Babaev
 import time, sys, requests, bs4
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
