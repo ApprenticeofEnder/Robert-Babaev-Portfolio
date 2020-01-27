@@ -18,12 +18,18 @@ def selectCourse(domain, name):
     for i in range(len(courses)):
         print(f'{i}:{courses[i].text}')
     print(f'{len(courses)}:Exit')
-    selection = int(input())
-    if selection < len(courses):
-        courses[selection].click()
-    else:
-        domain.maximize_window()
-        sys.exit(0)
+    while True:
+        try:
+            selection = int(input())
+        except Exception as e:
+            print(e)
+        else:
+            if selection < len(courses):
+                courses[selection].click()
+                break
+            else:
+                domain.maximize_window()
+                sys.exit(0)
 
 def getLinks(domain):
     pass
