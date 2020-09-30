@@ -1,0 +1,21 @@
+# This file contains all the necessary data to set up your spells! 
+# Treat this as listing the spells in your spell sheet, or the spells you have prepared.
+#
+# All spells follow this format: SPELLNAME:spellfile.json
+#
+# The spells are also organized by level (indicated with a number), in order.
+#
+# Any lines with a hash symbol (#) in front of them are ignored.
+#
+# Functional Example:
+0
+RAY OF FROST:ray of frost.json
+ELDRITCH BLAST:eldritch blast.json
+MAGE HAND:mage hand.json
+1
+HELLISH REBUKE:hellish rebuke.json
+WRATHFUL SMITE:wrathful smite.json
+UNSEEN SERVANT:unseen servant.json
+2
+HOLD PERSON:hold person.json
+
